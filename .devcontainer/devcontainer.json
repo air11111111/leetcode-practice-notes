@@ -1,0 +1,12 @@
+{
+  "name": "LeetCode C++ Runner",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-debian-12",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x scripts/run-cpp.sh"
+}
